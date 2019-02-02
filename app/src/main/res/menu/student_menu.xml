@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_student_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_student_profile"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/navigation_student_favorite"
+        android:title="Favorite"/>
+    <item
+        android:id="@+id/navigation_student_notification"
+        android:title="Notifocation"/>
+    <item
+        android:id="@+id/navigation_student_quize"
+        android:title="Quize"/>
+
+
+</menu>

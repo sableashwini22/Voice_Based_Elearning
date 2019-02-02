@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_student_profile_fname"
+        android:hint="Enter Your First Name"
+        android:layout_margin="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_student_profile_mname"
+        android:hint="Enter Your Middle Name"
+        android:layout_margin="2dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_student_profile_lname"
+        android:hint="Enter Your Last Name"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_student_profile_branch"
+        android:text="Select Branch"
+        android:textSize="18sp"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_student_profile_year"
+        android:text="Select Year"
+        android:textSize="18sp"
+        android:layout_margin="2dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_student_submit"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

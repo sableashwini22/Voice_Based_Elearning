@@ -1,4 +1,4 @@
-package com.example.poonam.voice_based_elearning;
+package com.example.poonam.voice_based_elearning.Activities;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.poonam.voice_based_elearning.R;
 
 public class MainActivity extends AppCompatActivity {
 
