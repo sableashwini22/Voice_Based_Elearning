@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_faculty_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/menu_faculty_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"/>
+
+    <item android:id="@+id/menu_faculty_upload"
+        android:title="Upload"
+        android:icon="@drawable/ic_upload"/>
+
+    <item android:id="@+id/menu_faculty_pending"
+        android:title="Pending"
+        android:icon="@drawable/ic_pending"/>
+
+    <item android:id="@+id/menu_faculty_quiz"
+        android:title="Quiz"
+        android:icon="@drawable/ic_question_answer"/>
+
+
+</menu>
