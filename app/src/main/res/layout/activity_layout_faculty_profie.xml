@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="2dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name_edt"
+        android:hint="Enter Your First Name"
+        android:layout_margin="2dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name_edt"
+        android:hint="Enter Your Last Name"
+        android:layout_margin="2dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/branch_txt"
+        android:textSize="18sp"
+        android:layout_margin="2dp"
+        android:text="Select Branch: IT"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_txt"
+        android:textSize="18sp"
+        android:layout_margin="2dp"
+        android:text="Select Year: BE"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub_txt"
+        android:text="Select Subject: DBMS"
+        android:textSize="18sp"
+        android:layout_margin="2dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_btn"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:layout_margin="2sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
